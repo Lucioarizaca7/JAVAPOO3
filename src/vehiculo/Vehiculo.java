@@ -23,16 +23,16 @@ public class Vehiculo {
     private boolean encendido; 
     
     //constructor - Inicializar
-    public Vehiculo(){
+    public Vehiculo(String caballoFuerza,int ruedas,String modelo,String color,String marca,int capacidad,int añoFabrica){
     
     
-        this.hp = "100";
-        this.ruedas = 4;
-        this.modelo = "Huaracna";
-        this.color = "Rojo";
-        this.marca = "Honda";
-        this.capacidad =2;
-        this.añoFabrica = 2024;
+        this.hp = caballoFuerza ;
+        this.ruedas = ruedas;
+        this.modelo = modelo;
+        this.color = color;
+        this.marca = marca;
+        this.capacidad =capacidad;
+        this.añoFabrica =añoFabrica;
     }
     
     public void transportar(){ 
@@ -45,4 +45,17 @@ public class Vehiculo {
         this.encendido = true;
     
     }
+    
+    public void informacion(){
+        System.out.println("Caballos de fuerza "+hp);
+        System.out.println("Cantidad de ruedas "+ruedas);
+        System.out.println("Modelo "+modelo);
+        System.out.println("Color "+color);
+        System.out.println("Marca "+marca);
+        System.out.println("Capacidad "+capacidad);
+        System.out.println("anio de fabrica "+añoFabrica);
+        
+    }
+    
+   
 }
