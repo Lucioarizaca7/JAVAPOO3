@@ -22,7 +22,7 @@ public class Auto extends Vehiculo {
     @Override  
     public void informacion(){
        super.informacion();
-        System.out.println("numero de puertas"+numero_puertas);
+        System.out.println("numero de puertas "+numero_puertas);
     
     }
     

@@ -23,7 +23,7 @@ public class Principal {
         moto.informacion();
         
         
-        Moto moto1 = new Moto("1700",2,"pulsar","rojo"," r-200",2,2025);
+        Moto moto1 = new Moto("1700",2,"pulsar","rojo"," kn2",2,2025);
         //moto1.encender();
         //moto1.transportar();
         //moto1.frenar();
